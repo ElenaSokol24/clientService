@@ -22,6 +22,7 @@ public class SocketApp {
             final String name = in.readLine();
 
             out.println(String.format("Hi %s, your port is %d", name, clientSocket.getPort()));
+            serverSocket.close();
         }
     }
 }

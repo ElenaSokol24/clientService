@@ -20,7 +20,7 @@ public class ClientService {
              BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()))) {
 
 
-            out.println("Nelogy");
+            out.println("Netology");
 
             String resp = in.readLine();
 
